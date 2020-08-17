@@ -1,0 +1,27 @@
+.channel__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.channel__title {
+  display: flex;
+}
+
+.channel__name {
+  margin-right: 0.5em;
+}
+
+.channel__nums {
+  color: gray;
+  font-size: 0.8rem;
+}
+
+.channel__sub {
+  background-color: red;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none;
+  height: 40px;
+}

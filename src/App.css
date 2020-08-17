@@ -5,3 +5,7 @@
 .bodyContent {
   display: flex;
 }
+
+.column {
+  flex-direction: column;
+}

@@ -11,7 +11,7 @@ function Video({ thumbnail, avatar, title, channel, views, timestamp }) {
         <div className="videoCard__details">
           <h4 className="videCard__vidName">{title}</h4>
           <p className="videoCard__channel">{channel}</p>
-          <p class="videoCard__views">
+          <p className="videoCard__views">
             {views}
             &nbsp; &#8226; &nbsp;
             {timestamp}

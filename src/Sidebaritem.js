@@ -8,7 +8,7 @@ function Sidebaritem({ Icon, title, selected, setTitle }) {
 
   return (
     <div
-      className={`item ${selected == title && `selected`}`}
+      className={`item ${selected === title && `selected`}`}
       onClick={getTitle}
     >
       <Icon className="item__icon" />
