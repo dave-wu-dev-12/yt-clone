@@ -1,7 +1,23 @@
+.channel {
+  display: flex;
+  align-items: center;
+}
+
+.channel__image {
+  margin-right: 2em;
+  height: 120px !important;
+  width: 120px !important;
+}
+
 .channel__info {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex: 1;
+}
+
+.channel__views {
+  margin: 0.5em 0;
 }
 
 .channel__title {
